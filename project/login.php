@@ -12,6 +12,7 @@ require_once 'include/header.php';
         <button type="submit">Login</button>
     </form>
 </div>
+
 <?php
 require_once 'include/footer.php';
 ?>
