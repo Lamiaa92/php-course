@@ -1,29 +1,10 @@
 <?php
-require_once 'include/database.php';
+require_once 'include/header.php';
 ?>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
 
-    $sql = "SELECT * FROM users WHERE id = 2";
-    $result = mysqli_query($conn, $sql);
-    $rowCount = mysqli_num_rows($result);
+HOME
 
-    if ($rowCount > 0) {
-        while ($row = mysqli_fetch_assoc($result)) {
-            echo $row['username'] . "<br>";
-            }
-        } else {
-            echo "No results found.";
-        }
-    
+<?php
+require_once 'include/footer.php';
+?>
 
-
-    ?>
-</body>
-</html>
