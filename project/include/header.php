@@ -1,7 +1,7 @@
 <?php
-session_start();
-require_once 'include/database.php';
-require_once 'include/register-inc.php';
+    session_start();
+    require_once 'include/database.php';
+    require_once 'include/register-inc.php';
 ?>
 <html lang="en">
 <head>
